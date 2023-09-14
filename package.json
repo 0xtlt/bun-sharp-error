@@ -1,0 +1,17 @@
+{
+  "name": "tsharp",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "bug": "bun ./index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "sharp": "^0.32.5"
+  }
+}
